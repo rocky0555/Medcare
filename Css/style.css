@@ -1,0 +1,491 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* top-bar start */
+.top-bar {
+  background-color: #efefef;
+}
+
+.top-bar i {
+  padding: 14px;
+  color: #797979;
+  text-decoration: none;
+}
+
+.top-bar i:hover {
+  color: #0052d2;
+  text-decoration: none;
+}
+
+.contact {
+  font-family: helvetica;
+  color: #797979;
+  margin-left: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+/* top-bar end */
+
+/* !section hero start */
+
+.section-hero {
+  height: 800px;
+  background-image: url(../img/banner/home-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-hero_inner-container {
+  height: 600px;
+  position: relative;
+}
+
+/* Section-hero-title-content start */
+
+.section-hero_main-title {
+  position: absolute;
+  margin-top: 30%;
+}
+
+.text-lvl-hero {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: -50px;
+}
+
+.section-hero_main-content {
+  margin-top: 40px;
+}
+
+/* Section-hero-title-content end */
+
+/* section button-left start */
+.section-hero_button-container {
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.button-blue {
+  color: white;
+  background-color: #0052d2;
+  padding: 12px;
+  font-family: helvetica;
+}
+.button-blue:hover {
+  background-color: white;
+  text-decoration: none;
+  transition: ease all 0.5s;
+}
+/* section button-left end */
+
+/* section button-right start */
+.button-white {
+  border: 1px solid #0052d2;
+  padding: 12px;
+  font-family: helvetica;
+  color: rgb(26, 24, 24);
+  margin-left: 5px;
+}
+
+.button-white:hover {
+  color: white;
+  background-color: #0052d2;
+  text-decoration: none;
+  transition: ease all 0.5s;
+}
+/* section button-right end */
+
+/* section hero end */
+
+/* mobile responsice start */
+
+/* !------------ !Media Query--------------  */
+
+/* mobil responsive start */
+
+@media (max-width: 575.98px) {
+  .section-hero {
+    height: 600px;
+    background-image: url(../img/banner/home-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .section-hero_inner-container {
+    height: 600px;
+    position: relative;
+  }
+
+  /* Section-hero-title-content start */
+
+  .section-hero_main-title {
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  .text-lvl-hero {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+  }
+
+  .section-hero_main-content {
+    margin-top: 40px;
+  }
+
+  /* Section-hero-title-content end */
+
+  /* section button-left start */
+  .section-hero_button-container {
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+  .button-blue {
+    color: white;
+    background-color: #0052d2;
+    padding: 5px;
+    font-family: helvetica;
+    font-size: 12px;
+  }
+  .button-blue:hover {
+    background-color: white;
+    text-decoration: none;
+    transition: ease all 0.5s;
+  }
+  /* section button-left end */
+
+  /* section button-right start */
+  .button-white {
+    border: 1px solid #0052d2;
+    padding: 5px;
+    font-family: helvetica;
+    color: rgb(26, 24, 24);
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .button-white:hover {
+    color: white;
+    background-color: #0052d2;
+    text-decoration: none;
+    transition: ease all 0.5s;
+  }
+  /* section button-right end */
+
+  /* section hero end */
+}
+
+/* mobil responsive end */
+
+/* media quarys */
+
+/* section feature start */
+.feature-service {
+  background-image: url(../img/banner/pattern_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 290px;
+}
+
+/* section feature end*/
+
+/* section card start */
+.card-body {
+  margin-top: 65px;
+  background-color: white;
+  padding: 30px;
+}
+
+/* section card end*/
+
+.card-body_icon-item {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.main-tagline {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-top: 75px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.tagline-para {
+  font-size: 15px;
+  margin-top: 92px;
+  margin-bottom: 50px;
+}
+/* medical service body card start */
+.services_card-body {
+  border: 1px solid #d1d3d8;
+  padding: 30px;
+  width: 300px;
+  height: auto;
+  margin-bottom: 40px;
+}
+/* medical service body card end*/
+
+.learn-more {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  text-align: center;
+  color: rgb(26, 24, 24);
+}
+
+.learn-more a {
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+  border: 1px solid #0052d2;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+.learn-more a:hover {
+  color: white;
+  background-color: #0052d2;
+  transition: ease all 0.5s;
+}
+
+/* services-card_body-icon start */
+
+.services-card_body-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #d1d3d8;
+  margin: auto;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #0052d2;
+}
+.services-card_body-icon i {
+  margin-left: 17px;
+  margin-top: 15px;
+}
+/* about area img section start */
+.about_area-img {
+  height: 600px;
+  width: 750px;
+  margin-bottom: 40px;
+  background-image: url(../img/banner/about1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: -200px;
+}
+
+/* about area img section end */
+
+/* about area content section start */
+.about_main-content {
+  font-family: "Playfair Display", serif;
+  margin-top: 185px;
+}
+
+.about_sub-content {
+  font-family: "Playfair Display", serif;
+  margin-top: 19px;
+  color: #0052d2;
+  font-weight: bold;
+}
+
+.about-para_content-text {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* about area content section end */
+
+/* medcare experience start */
+
+.medcare-experience {
+  padding: 50px;
+}
+
+.medcare-experience_main-text {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* medcare experience end */
+
+/* portfolio card start */
+
+.portfolio_card-body {
+  border: 1px solid #d1d3d8;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+.portfolio_card-body:hover {
+  transition: ease all 0.5s;
+  -webkit-box-shadow: 0px 2px 17px -1px rgba(66, 66, 66, 1);
+  -moz-box-shadow: 0px 2px 17px -1px rgba(66, 66, 66, 1);
+  box-shadow: 0px 2px 17px -1px rgba(66, 66, 66, 1);
+}
+
+.card-body_profile-img {
+  width: 100%;
+}
+.portfolio_main-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  color: rgb(26, 24, 24);
+}
+
+/* social-item start */
+
+.portfolio_social a {
+  color: #8d8d8d;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.portfolio_social {
+  border-top: 1px solid #d1d3d8;
+}
+
+.social-item {
+  float: right;
+  margin-right: 20px;
+}
+
+.social-item i {
+  color: #8d8d8d;
+  font-size: 17px;
+  padding: 5px;
+}
+.social-item i:hover {
+  color: #0052d2;
+}
+
+/* social-item end */
+
+/* portfolio card end */
+
+/* Appointment form start */
+
+.appointment_main-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(26, 24, 24);
+}
+
+.main-form {
+  background-color: #f8f8f8;
+  padding: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(66, 66, 66, 1);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(66, 66, 66, 1);
+  box-shadow: 0px 1px 5px -1px rgba(66, 66, 66, 1);
+  margin-bottom: 60px;
+  height: 500px;
+}
+.form-main_title-text {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.appiontment-title {
+  height: 500px;
+}
+
+/* appointment button start */
+
+.btn-appointment {
+  margin-top: 30px;
+}
+
+.appointment-submit {
+  padding: 10px;
+  background-color: #0052d2;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.appointment-submit:hover {
+  text-decoration: none;
+  color: #0052d2;
+  background: white;
+  transition: ease all 0.5s;
+}
+
+/* appointment button end */
+
+.name-form {
+  margin-bottom: 5px;
+  font-family: helvetica;
+}
+
+.gmail-form {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: helvetica;
+}
+
+.message-form {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: helvetica;
+}
+
+/* Appointment form end */
+
+/* section emergency start */
+
+.emergency-container {
+  background: linear-gradient(rgba(27, 98, 253, 0.7), rgba(27, 98, 253, 0.7)),
+    url(../img/background/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding: 50px;
+}
+
+.emergency-content {
+  margin-top: 25px;
+}
+
+.emergency_title-content {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.emergency_main-content {
+  color: white;
+  font-family: helvetica;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.emergency_para-content {
+  color: white;
+  padding-top: 5px;
+}
+/* section emergency end */
